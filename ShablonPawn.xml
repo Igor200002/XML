@@ -1,0 +1,98 @@
+<PawnLibrary>
+  <Char charID="33" age="312">
+    <Gender>Man</Gender>
+    <Race>Альб</Race>
+    <Nationality>Авалонец</Nationality>
+    <Fraction>0</Fraction>
+    <Stats>No</Stats>
+    <SurName>name</SurName>
+    <Name>name</Name>
+    <NickName>name</NickName>
+    <Fraction>0</Fraction>
+    <Relatives>
+      <rel>1</rel>
+    </Relatives>
+    <HomeLocation>NW-1-1</HomeLocation>
+    <Stats>No</Stats>
+    <QuestChar>true</QuestChar>
+  </Char>
+  <SyntheticChar syntID="2">
+    <Model>321</Model>
+    <Fraction>123</Fraction>
+    <NickName>312</NickName>
+    <Stats>312</Stats>
+    <QuestChar>true</QuestChar>
+  </SyntheticChar>
+  <Char charID="123123" age="3">
+    <Gender>М</Gender>
+    <Race>3123</Race>
+    <Nationality>1232131</Nationality>
+    <Fraction>31313</Fraction>
+    <Stats>13131313131313</Stats>
+    <SurName>13123131</SurName>
+    <Name>31321</Name>
+    <NickName>321313</NickName>
+    <Relatives>
+      <rel>3</rel>
+      <rel>5</rel>
+    </Relatives>
+    <HomeLocation>1313</HomeLocation>
+    <QuestChar>true</QuestChar>
+  </Char>
+  <Char charID="123321123" age="22">
+    <Gender>М</Gender>
+    <Race>Петушок</Race>
+    <Nationality>Якут</Nationality>
+    <Fraction>Гитарные Танцоры</Fraction>
+    <Stats>ЖЕСКИЕ</Stats>
+    <SurName>Рогов</SurName>
+    <Name>Кирилл</Name>
+    <NickName>Чушапан</NickName>
+    <Relatives>
+      <rel>3</rel>
+      <rel>4</rel>
+      <rel>5</rel>
+    </Relatives>
+    <HomeLocation>Новосибирск</HomeLocation>
+    <QuestChar>true</QuestChar>
+  </Char>
+  <Char charID="1" age="32">
+    <Gender>М</Gender>
+    <Race>Любитель Питона</Race>
+    <Nationality>Русский</Nationality>
+    <Fraction>Мтусишник</Fraction>
+    <Stats>Нет</Stats>
+    <SurName>Удалов</SurName>
+    <Name>Игорь</Name>
+    <NickName>Mute</NickName>
+    <Relatives>
+      <rel>3</rel>
+      <rel>4</rel>
+    </Relatives>
+    <HomeLocation>Коптевский б-р</HomeLocation>
+    <QuestChar>true</QuestChar>
+  </Char>
+  <Char charID="5345" age="11">
+    <Gender>М</Gender>
+    <Race>Любитель Питона</Race>
+    <Nationality>Русский</Nationality>
+    <Fraction>Мтусишник</Fraction>
+    <Stats>НЕТ</Stats>
+    <SurName>Степанов</SurName>
+    <Name>Александр</Name>
+    <NickName>Нытич</NickName>
+    <Relatives>
+      <rel>3</rel>
+      <rel>4</rel>
+    </Relatives>
+    <HomeLocation>Сергиев Посад</HomeLocation>
+    <QuestChar>true</QuestChar>
+  </Char>
+  <SyntheticChar syntID="321312123">
+    <Model>Убирающая</Model>
+    <Fraction>Степановых</Fraction>
+    <NickName>пылесос</NickName>
+    <Stats>нет</Stats>
+    <QuestChar>true</QuestChar>
+  </SyntheticChar>
+</PawnLibrary>
