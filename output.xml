@@ -1,0 +1,13 @@
+<dialogue more="0">
+  <node tochar="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext>Что сегодня на ужин?</npctext>
+    <answers>
+      <answer tonode="0" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text>Пицца</text>
+      </answer>
+	  <answer tonode="0" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text>Паста</text>
+      </answer>
+    </answers>
+  </node>
+</dialogue>

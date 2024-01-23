@@ -1,0 +1,122 @@
+<dialogue more ="1">
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Привет! Что-то будешь заказывать? </npctext>
+    <answers>
+      <answer tonode = "2" actquestA="1000" numquestA="1000" posofquestA="1000"> 
+        <text> А что есть в наличии? </text>
+      </answer>
+	  <answer tonode = "3" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Что происходит? </text>
+      </answer>
+	  <answer tonode = "4" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Расскажи мне анекдот. </text>
+      </answer>
+	  <answer tonode = "5" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Почему у вас нет алкоголя в продаже? </text>
+      </answer>
+	  <answer tonode = "6" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Да, пожалуй. </text>
+      </answer>
+      <answer tonode = "7" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Я подумаю. </text>
+      </answer>
+      <answer tonode = "8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Пока нет. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Так будешь заказывать? </npctext>
+    <answers>
+      <answer tonode = "2" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> А что есть в наличии? </text>
+      </answer>
+	  <answer tonode = "3" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Что происходит? </text>
+      </answer>
+	  <answer tonode = "4" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Расскажи мне анекдот. </text>
+      </answer> 
+	  <answer tonode = "5" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Почему у вас нет алкоголя в продаже? </text>
+      </answer>
+	  <answer tonode = "6" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Да, пожалуй. </text>
+      </answer>
+      <answer tonode = "7" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Я подумаю. </text>
+      </answer>
+      <answer tonode = "8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Пока нет. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Всякое разное - холодный чай, горячий чай, сок, газировка, безалкогольные коктейли. Еще есть мороженое и чипсы. </npctext>
+    <answers>
+      <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Понял. </text>
+      </answer>
+	  <answer tonode="5" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Почему у вас нет алкоголя в продаже? </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Да ничего тут не происходит! Это тестовый уровень! </npctext>
+    <answers>
+      <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> ОК. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> А ну-ка подайка мне ключ на 32! А где он? А где он? АХАХАХАХАХ </npctext>
+    <answers>
+      <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> ХАХАХАХАХАХАХАХАХА </text>
+      </answer>
+	  <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Не смешно же! </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Потому что нет лицензии. </npctext>
+    <answers>
+      <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Ладно... </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Ну, выбирай. Вот меню. </npctext>
+    <answers>
+      <answer tonode="1000" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> ... (тут будет переход в меню продажи) </text>
+		<dialend>true</dialend>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Точно? </npctext>
+    <answers>
+      <answer tonode="8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Да. </text>
+      </answer>
+	  <answer tonode="1" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Нет, я передумал. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="2" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Ну, как хочешь... </npctext>
+    <answers>
+      <answer tonode="1000" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> Прощай. </text>
+		<dialend>true</dialend>
+      </answer>
+    </answers>
+  </node>
+</dialogue>
+

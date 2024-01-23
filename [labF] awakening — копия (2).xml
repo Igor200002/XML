@@ -1,0 +1,103 @@
+<dialogue more ="0">
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Внимание! </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Обнаружен перебой электропитания! </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Производится переход на резервные генераторы! </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Всему персоналу комплекса рекомендуется покинуть комплекс! </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Я проснулся в какой-то... коробке? </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Где я? Спереди... какая-то дверь. Может она откроется, если на нее надавить? </npctext>
+    <answers>
+      <answer tonode="8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 1. Открыть дверцу. </text>
+      </answer>
+      <answer tonode="6" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 2. Не открывать дверцу. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Надо выбираться отсюда. </npctext>
+    <answers>
+      <answer tonode="8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 1. Открыть дверцу. </text>
+      </answer>
+      <answer tonode="7" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 2. Не открывать дверцу. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="0" actquestA="1000" numquestA="1000" posofquestA="1000">
+    <npctext> Внутри этой штуки ОЧЕНЬ неудобно находиться. </npctext>
+    <answers>
+      <answer tonode="8" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 1. Открыть дверцу. </text>
+      </answer>
+      <answer tonode="6" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 2. Не открывать дверцу. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Э-эх! </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> После напора дверь открылась, после чего я упал на пол. </npctext>
+    <answers>
+      <answer tonode="10" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 1. Подняться. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Поднявшись, я понял, что внутри какой-то комнаты с такими же коробками, как и та, в которой я был до этого. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Никого, кроме меня тут нет. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Надо бы осмотреться. </npctext>
+    <answers>
+      <answer tonode="13" actquestA="1000" numquestA="1000" posofquestA="1000">
+        <text> 1. Осмотреть комнату. </text>
+      </answer>
+    </answers>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Да уж... Тут и вправду никого нет. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Что это за место? </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Похоже на какую-то лабораторию. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Капсулы закрыты, по полу разбросаны коробки. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> И еще эта сигнализация... Она уже достала! Её можно как-то выключить? </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> В конце комнаты находится дверь. Может, там выход? </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> Я в каком-то непонятном комбинезоне. </npctext>
+  </node>
+  <node tochar ="0" actquest="1000" numquest="1000" posofquest="1000">
+    <npctext> В кармане лежит ключ. На нём номер 16. Может, он от какой-то двери? </npctext>
+  </node>
+  <node tochar ="0" actquest="0" numquest="1000" posofquest="1000">
+    <npctext> Тут больше нечего делать. </npctext>
+  </node>
+
+</dialogue>

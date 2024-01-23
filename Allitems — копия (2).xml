@@ -1,0 +1,238 @@
+<Predmets>
+  <Obj price ="10" stak ="100" kvest ="0" picture ="2" weight = "0.25">
+    <Name>Пистолетный глушитель</Name>
+    <Type>Модификация</Type>
+    <Description></Description>
+    <Mod number = "0" takeoff = "1">
+      <type>Насадка</type>
+      <Guns>
+        <text>9</text>
+        <text>10</text>
+        <text>13</text>
+        <text>14</text>
+        <text>15</text>
+      </Guns>
+      <NameEff>
+        <name>Урон</name>
+        <name>Бесшумный выстрел</name>
+      </NameEff>
+      <Effects>
+        <Damage>-1</Damage>
+        <SilenceShot>1</SilenceShot>
+      </Effects>
+    </Mod>
+  </Obj>
+  <Obj price ="10" stak ="100" kvest ="0" picture ="2" weight = "0.25">
+    <Name>Пистолетный компенсатор</Name>
+    <Type>Модификация</Type>
+    <Description></Description>
+    <Mod number = "1" takeoff = "1">
+      <type>Насадка</type>
+      <Guns>
+        <text>9</text>
+        <text>10</text>
+        <text>13</text>
+        <text>14</text>
+        <text>15</text>
+      </Guns>
+      <NameEff>
+        <name>Точность</name>
+      </NameEff>
+      <Effects>
+        <Accuracy>1</Accuracy>
+      </Effects>
+    </Mod>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "0.2">
+    <Name>Кастет</Name>
+    <Type>Оружие</Type>
+    <Description>Обычно используемое преступниками скрытное оружие, усиливающее ударную мощь кулаков.</Description>
+    <UnderType>Ближний бой</UnderType>
+    <UseGun numb = "1" minDam = "2" maxDam = "5">
+      <Speed>3</Speed>
+      <Presion>100</Presion>
+      <Distance>1</Distance>
+      <Mod>
+        <ZATVOR>
+
+        </ZATVOR>
+        <STVOL>
+
+        </STVOL>
+        <NASADKA>
+
+        </NASADKA>
+        <PRICTEL>
+
+        </PRICTEL>
+        <MAGAZIN>
+
+        </MAGAZIN>
+        <RUKOYAT>
+
+        </RUKOYAT>
+        <PRICLAD>
+
+        </PRICLAD>
+        <DRUGOE>
+
+        </DRUGOE>
+      </Mod>
+    </UseGun>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "2">
+    <Name>Ручная пушка (Handcannon)</Name>
+    <Type>Оружие</Type>
+    <Description>Этот "пистолет" - полукустарная разработка умельцев из 13 района. Очень мощный самодельный патрон в сочетании с малым размером сего агрегата - не лучшая идея, но бесстрашных рейдеров это не останавливает, тем более свою функцию "пугала" ручная пушка выполняет на отлично.</Description>
+    <UnderType>Дальний бой</UnderType>
+    <GunType>Пистолет</GunType>
+    <UseGun numb = "12" minDam = "18" maxDam = "29">
+      <Patron>20мм</Patron>
+      <Kolvo>1</Kolvo>
+      <Speed>0.5</Speed>
+      <Distance>10</Distance>
+      <Presion>10</Presion>
+      <Mod>
+        <ZATVOR>
+          <text>29</text>
+        </ZATVOR>
+        <STVOL>
+          <text>31</text>
+        </STVOL>
+        <NASADKA>
+
+        </NASADKA>
+        <PRICTEL>
+
+        </PRICTEL>
+        <MAGAZIN>
+
+        </MAGAZIN>
+        <RUKOYAT>
+
+        </RUKOYAT>
+        <PRICLAD>
+          <text>30</text>
+        </PRICLAD>
+        <DRUGOE>
+
+        </DRUGOE>
+      </Mod>
+    </UseGun>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "13">
+    <Name>Крупнокалиберная снайперская винтовка (SR50)</Name>
+    <Type>Оружие</Type>
+    <Description>Тяжелая крупнокалиберная снайперская винтовка 50-го калибра со скользящим поворотным затвором, предназначена для использования против живой силы и техники противника. Такое оружие способно поражать легкобронированную технику на дальних дистанциях с невероятной точностью и силой. Используется снайперами спецподразделений.</Description>
+    <UnderType>Дальний бой</UnderType>
+    <GunType>Снайперская винтовка</GunType>
+    <UseGun numb = "26" minDam = "25" maxDam = "27">
+      <Patron>12.7</Patron>
+      <Kolvo>5</Kolvo>
+      <Speed>0.5</Speed>
+      <Distance>70</Distance>
+      <Presion>50</Presion>
+      <Mod>
+        <ZATVOR>
+          <text>103</text>
+        </ZATVOR>
+        <STVOL>
+          <text>104</text>
+          <text>105</text>
+        </STVOL>
+        <NASADKA>
+          <text>106</text>
+        </NASADKA>
+        <PRICTEL>
+          <text>10</text>
+          <text>11</text>
+        </PRICTEL>
+        <MAGAZIN>
+          <text>107</text>
+        </MAGAZIN>
+        <RUKOYAT>
+
+        </RUKOYAT>
+        <PRICLAD>
+          <text>108</text>
+        </PRICLAD>
+        <DRUGOE>
+
+        </DRUGOE>
+      </Mod>
+    </UseGun>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "1.2">
+    <Name>Деловой костюм</Name>
+    <Type>Одежда</Type>
+    <Description>Обычная одежда офисного работника. Последний писк моды офисных небоскребов Первого Дистрикта.</Description>
+	<UseAr>
+      <UnderType>Броня</UnderType>
+      <Armory>5</Armory>
+    </UseAr>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "8">
+    <Name>Полицейская броня</Name>
+    <Type>Броня</Type>
+    <Description>Бронированное обмундирование специального подразделения полиции Автократии. Хорошо защищает от малокалиберного оружия.</Description>
+    <UseAr>
+      <UnderType>Броня</UnderType>
+      <Armory>30</Armory>
+    </UseAr>
+  </Obj>
+  <Obj price ="10" stak ="5" kvest ="0" picture ="0" weight = "0.5">
+    <Name>Бутылка молока</Name>
+    <Type>Напиток</Type>
+    <Description>Пейте, дети, молоко, туалет недалеко...</Description>
+    <Use craft = "1" times = "4">
+      <Type>нет</Type>
+      <Use>15</Use>
+      <UseDone>-1</UseDone>
+    </Use>
+  </Obj>
+  <Obj price ="10" stak ="5" kvest ="0" picture ="0" weight = "1">
+    <Name>Пакет молока</Name>
+    <Type>Напиток</Type>
+    <Description>У коровы нет других забот, ест траву и молоко даёт...</Description>
+    <Use craft = "1" times = "4">
+      <Type>нет</Type>
+      <Use>15</Use>
+      <UseDone>-1</UseDone>
+    </Use>
+  </Obj>
+  
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "0.1">
+    <Name>Резиновая свинья</Name>
+    <Type>Хлам</Type>
+    <Description>Где свиньи? Народ требует свиней!</Description>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="0" picture ="0" weight = "2">
+    <Name>Ящик с патронами кал. 9мм</Name>
+    <Type>Патроны</Type>
+	<Patr>9мм</Patr>
+    <Description>240 патронов (12 стандартных пистолетных магазинов) калибра 9 миллиметров в закрытом металлическом ящике.</Description>
+  </Obj>
+  <Obj price ="10" stak ="3" kvest ="0" picture ="0" weight = "0.5">
+    <Name>Водка «Новая реальность»</Name>
+    <Type>Алкоголь</Type>
+    <Description>Ух, хорошо пошла!</Description>
+	<Use craft = "0" times = "10">
+		<Parameter>
+			<Sila>1</Sila>
+			<Lov>0</Lov>
+			<Int>-1</Int>
+		</Parameter>
+	</Use>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="1" picture ="0" weight = "1">
+    <Name>«Капитал»</Name>
+    <Type>Книга</Type>
+    <Description>Один из ценнейших для коммуниста трудов Карла Маркса. Говорят, не потерял актуальность.</Description>
+  </Obj>
+  <Obj price ="10" stak ="1" kvest ="1" picture ="0" weight = "0.5">
+    <Name>Посылка от Оливера</Name>
+    <Type>Прочее</Type>
+    <Description>Это нужно отнести Кайлу Кёрку на радио.</Description>
+  </Obj>
+  
+</Predmets>

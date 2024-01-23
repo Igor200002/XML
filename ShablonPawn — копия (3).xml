@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PawnLibrary>
+    <Char charID ="" age ="">
+        <Gender>Man</Gender>
+        <Race>Альб</Race>
+        <Nationality>Авалонец</Nationality>
+        <Fraction>0</Fraction>
+        <Stats>No</Stats>
+        <SurName>name</SurName>
+        <Name>name</Name>
+        <NickName>name</NickName>
+        <Fraction>0</Fraction>
+        <Relatives>
+            <rel>1</rel>
+        </Relatives>
+        <HomeLocation>NW-1-1</HomeLocation>
+        <Stats>No</Stats>
+        <QuestChar>true</QuestChar>
+    </Char>
+    <SyntheticChar>
+        <Model>synt</Model>
+        <Fraction>1</Fraction>
+        <NickName>nick</NickName>
+        <Stats>No</Stats>
+        <QuestChar>true</QuestChar>
+    </SyntheticChar>
+</PawnLibrary>

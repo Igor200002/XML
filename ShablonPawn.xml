@@ -72,7 +72,7 @@
     <HomeLocation>Коптевский б-р</HomeLocation>
     <QuestChar>true</QuestChar>
   </Char>
-  <Char charID="5345" age="11">
+  <Char charID="5345" age="">
     <Gender>М</Gender>
     <Race>Любитель Питона</Race>
     <Nationality>Русский</Nationality>
